@@ -1,0 +1,33 @@
+/* Estilos Comunes */
+
+main {
+    background-color: bisque;
+}
+
+section,
+aside {
+    border: 1px gainsboro solid;
+    margin: 0.5rem;
+    padding: 2rem;
+    max-width: 500px;
+}
+
+@media (min-width: 580px) {
+    main {
+        display: flex;
+    }
+
+    section {
+        order: 1;
+    }
+}
+
+@media (min-width: 780px) {
+    aside {
+        width: 30%;
+    }
+
+    section {
+        width: 70%;
+    }
+}
